@@ -1,0 +1,384 @@
+body {
+	margin: 0;
+	font-family: my;
+}
+@font-face {
+	font-family: 'my';
+	src: url(fonts/NoeRegular.woff2);
+}
+/* HEAD AREA */
+.head-area {
+	
+	overflow: hidden;
+}
+.right-side {
+	float: left;
+	width: 60%;
+}
+.middle-side {
+	float: left;
+	width: 30%;
+}
+.left-side {
+	overflow: hidden;
+	width: 10%;
+}
+.container {
+	width: 80%;
+	margin: auto;
+}
+/* heder */
+.right-side a img {
+	display: block;
+	text-align: center;
+}
+.logo-area {
+	background-color: #000000;
+	height: 60px;
+	width: 60px;
+	padding: 8px;
+	position: relative;
+	float: left;
+	margin-right: 5%;
+}
+.logo-area:after {
+	height: 15px;
+	width: 15px;
+	content: '';
+	clear: both;
+	display: block;
+	background-color: #ff9d54;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+}
+.deal-area {
+	overflow: hidden;
+}
+.nav-bar{
+	padding: 30px 0;
+}
+.nav-bar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.nav-bar ul li{
+	float: left;
+}
+.nav-bar ul li a{
+	color: #9a9a9a;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 18px;
+	margin-right: 20px;
+}
+.nav-bar ul li:hover a{
+	color: #ff9d54;
+}
+.nav-bar .active a {
+	color: #ff9d54;
+}
+.head-text h5 {
+	text-transform: capitalize;
+	font-size: 24px;
+	color: #9a9a9a;
+	margin-top: 70px;
+}
+.head-text h5:after {
+	content: '';
+	clear: both;
+	display: block;
+	border-bottom: 5px solid #ff9d54;
+	width: 20%;
+}
+.head-text {
+	margin-right: 5%;
+}
+.head-text h2 {
+	text-transform: capitalize;
+	font-size: 45px;
+	font-weight: bold;
+}
+.head-text p {
+	color: #9a9a9a;
+	font-size: 24px;
+	text-align: justify;
+	padding: 15px 70px 15px 0px;
+}
+}
+.btn {
+	
+}
+.head-area .btn {
+	
+}
+.btn a {
+	text-transform: capitalize;
+	border: 1px solid #9a9a9a;
+	border-radius: 30px;
+	text-decoration: none;
+	color: #000000;
+	padding: 20px 33px;
+	display: inline-block;
+}
+.btn a:hover {
+	background-color: #ff9d54;
+	color: #fff;
+	border: 1px solid #ff9d54;
+}
+.middle-side {
+	
+} 
+.middle-side img {
+	width: 100%;
+	height: auto;
+}
+.left-side {
+	text-align: center;
+}
+.socail-menu {
+}
+.socail-menu ul {
+	list-style: none;
+}
+.socail-menu ul li {
+	writing-mode: vertical-lr;
+}
+.socail-menu ul li a {
+	color: #9a9a9a;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: capitalize;
+	margin: 0 0 50px 0;
+}
+/* portfolio */
+.portfolio-area {
+	overflow: hiddden;
+	padding : 30px 0 0 0;
+}
+.portfolio-area h5 {
+	text-transform: capitalize;
+	font-size: 24px;
+	color: #9a9a9a;
+	margin-top: 70px;
+}
+.portfolio-area h5:after {
+	content: '';
+	clear: both;
+	display: block;
+	border-bottom: 5px solid #ff9d54;
+	width: 20%;
+}
+.portfolio-area h2 {
+	display: inline;
+	text-transform: capitalize;
+	font-size: 45px;
+}
+.port-menu {
+	display: inline;
+}
+.port-menu ul{
+	margin-top: 17px;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+.port-menu ul li{
+	float: left;
+}
+.port-menu ul li a{
+	color: #9a9a9a;
+	text-decoration: none;
+	font-size: 14px;
+	margin-right: 15px;
+	text-transform: capitalize;
+}
+.port-menu ul li:hover a{
+	color: #000000;
+}
+.portfolio-area .port-menu .active a {
+	color: #000000;
+}
+.col-1-1 {
+	width: 39%;
+	margin: 1% 1% 0 0;
+	float: left;
+	overflow: hidden;
+}
+.col-1-1 img {
+	width: 100%;
+	height: auto;
+}
+.col-1-2 img {
+	width: 100%;
+	height: auto;
+}
+.port-work {
+	overflow: hidden;
+	margin-top: 70px;
+}
+.col-1-2 {
+	width: 28%;
+	float: left;
+	margin: 1% 1% 2% 1%;
+	overflow: hidden;
+}
+/* blog */
+.blog-area {
+	overflow: hidden;
+}
+.blog-area h5 {
+	text-transform: capitalize;
+	font-size: 24px;
+	color: #9a9a9a;
+	margin-top: 70px;
+}
+.blog-area h5:after {
+	content: '';
+	clear: both;
+	display: block;
+	border-bottom: 5px solid #ff9d54;
+	width: 20%;
+}
+.blog-area h2 {
+	display: inline;
+	text-transform: capitalize;
+	font-size: 45px;
+}
+.blog-write span {
+	color: #9a9a9a;
+}
+.blog-post-1,
+.blog-post-2 {
+	margin-top: 80px;
+	overflow: hidden;
+}
+.blog-post-1 .blog-img {
+	width: 48%;
+	float: left;
+	overflow: hidden;
+}
+.blog-post-1 .blog-write {
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+}
+.blog-post-2 .blog-img {
+	width: 48%;
+	float: left;
+	overflow: hidden;
+}
+.blog-post-2 .blog-write {
+	width: 48%;
+	float: right;
+	margin-right: 4%;
+}
+.blog-img img {
+	width: 80%;
+	height: auto;
+}
+.blog h3 {
+	font-size: 28px;
+}
+.blog p {
+	text-align: justify;
+	color: #9a9a9a;
+	font-size: 18px;
+}
+.blog a {
+	text-decoration: none;
+	color: #ff9d54;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+.blog a:hover {
+	text-decoration: underline;
+}
+.blog-area .btn {
+	margin-top: 100px;
+    text-align: center;
+}
+/* FOOTER */
+.footer-area h5 {
+	text-transform: capitalize;
+	font-size: 24px;
+	color: #9a9a9a;
+	margin-top: 70px;
+}
+.footer-area h5:after {
+	content: '';
+	clear: both;
+	display: block;
+	border-bottom: 5px solid #ff9d54;
+	width: 20%;
+}
+.footer-area h2 {
+	text-transform: capitalize;
+	font-size: 55px;
+}
+.footer-area h3 {
+	text-transform: capitalize;
+	font-size: 36px;
+	font-weight: normal;
+}
+.footer-area label,
+.footer-area input {
+	display: block;
+	margin: 13px 0px 16px 0px;
+}
+.footer-area label {
+	text-transform: capitalize;
+	color: #9a9a9a;
+	font-size: 16px;
+}
+.footer-area input {
+	font-size : 16px;
+	padding: 8px 60px 8px 18px;
+	border-radius: 5px;
+	border: 1px solid #9a9a9a;
+}
+.footer-area input:hover {
+	border: 1px solid black;
+}
+.footer-area select{
+	border: 1px solid #9a9a9a;
+	font-size: 16px;
+	padding: 8px 134px 8px 10px;
+	border-radius: 5px;
+}
+.footer-area select:hover {
+	border : 1px solid black;
+}
+.footer-area textarea:hover {
+	border : 1px solid black;
+}
+.footer-area textarea{
+	border-radius: 5px;
+	border: 1px solid #9a9a9a;
+}
+.name {
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+	overflow: hidden;
+}
+.msg {
+	overflow: hidden;
+}
+.footer-area form input[type=submit] {
+	float: none;
+	overflow: hidden;
+	text-transform: capitalize;
+	border: 1px solid #000000;
+	border-radius: 30px;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 20px 70px;
+	display: inline-block;
+	background-color: #000000;
+	cursor: pointer;
+}
+.sub {
+	
+}

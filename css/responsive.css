@@ -1,0 +1,118 @@
+@media only screen and (max-width: 768px){
+	.logo-area {
+		float: none;
+		margin-right: 0;
+	}
+	.nav-bar ul {
+		float: right;
+	}
+	.head-text p {
+		padding: 0;
+		text-align: none;
+	}
+	.btn {
+		text-align: center;
+	}
+	.middle-side {
+		width: 90%;
+		float: left;
+	}
+	.socail-menu ul{
+		padding: 0 12px;
+	}
+	.socail-menu ul li a {
+		font-size: 12px;
+	}
+	.right-side {
+		width: 100%;
+	}
+	.head-text h2 {
+		text-align: center;
+	}
+	.head-text {
+		margin: 0 0 0 0;
+	}
+	.head-area .btn {
+		margin-bottom: 50px;
+	}
+	.container-n {
+		width: 80%;
+		margin: auto;
+	}
+	.portfolio-area h5 {
+		margin-top: 0;
+	}
+	.portfolio-area h2 {
+		font-size: 36px;
+		display: block;
+		text-align: center;
+	}
+	.port-menu ul li a{
+		display: inline-block;
+		text-align: center;
+	}
+	.port-menu ul {
+		float: none;
+		text-align: center;
+	}
+	.port-menu ul li {
+		display: inline;
+		float: none;
+	}
+	.col-1-1 {
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+	.col-1-2 {
+		width: 48%;
+		margin-right: 1%;
+	}
+	.blog-area h2 {
+		display: block;
+		text-align: center;
+	}
+	.blog-post-1 .blog-img {
+		width: 100%;
+		text-align: center;
+		margin-top: 50px;
+	}
+	.blog-post-2 .blog-img {
+		width: 100%;
+		text-align: center;
+		margin-top: 50px;
+	}
+	.blog-post-1 .blog-write {
+		margin: 0;
+		width: 100%;
+		float: none;
+	}
+	.blog-post-2 .blog-write {
+		margin: 0;
+		width: 100%;
+		float: none;
+	}
+	.footer-area h2 {
+		text-align: center;
+	}
+	.name {
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+	.footer-area input {
+		width: 75%;
+	}
+	.footer-area select {
+		width: 89%;
+	}
+	.footer-area textarea {
+		width: 89%;
+	}
+	.footer-area form input[type="submit"] {
+		width: 29%;
+	}
+	.sub {
+		text-align: center;
+	}
+}
